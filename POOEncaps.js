@@ -6,11 +6,11 @@ class BankCustomer {
 		let name = name_;
 		let code = code_;
 		this.getName = () => name
-		this.verifyPinInput = (verif_) => {
+		this.verifyPinInput = (code) => {
 			if(code_ === code){
 				return true;
 				} else {
-					return false;
+				return false;
 				}
 			}
 		}

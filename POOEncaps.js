@@ -7,7 +7,7 @@ class BankCustomer {
 		let code = code_;
 		this.getName = () => name
 		this.verifyPinInput = (verif_) => {
-			if(verif_ === code){
+			if(code_ === code){
 				return true;
 				} else {
 					return false;
